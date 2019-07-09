@@ -33,7 +33,7 @@ class NegociacoesView {
         `
     }
 
-    _update(model) {
+    update(model) {
         this._elemento.innerHTML = this._template(model)
     }
 }
